@@ -98,6 +98,7 @@ Human Pose Estimation: the problem of localization of human joints (or) keypoint
 - Directly regress the 3D poses from monocular images
   - 3D Human Pose Estimation from Monocular Images with Deep Convolutional Neural Network (ACCV 2014)
   - Coarse-to-Fine Volumetric Prediction for Single-Image 3D Human Pose（Volumetric representation, 3D heatmap) (CVPR 2017)
+  - These approaches based on image input can directly capture rich knowledge contained in images. However, without intermediate feature and supervision, the model’s performance will also be affected by the image’s background, lighting and person’s clothing.
 - First estimate 2D poses and then lift 2D pose to 3D pose
   - Joint 2D and 3D: lift 3D pose from the estimated 2D joint position
     - Towards 3D Human Pose Estimation in the Wild (ICCV 2017)
