@@ -164,9 +164,14 @@ Human Pose Estimation: the problem of localization of human joints (or) keypoint
 
 
 ## 3D Shape Estimation
+
 ### Problem
 
 3D reconstruction is the process of estimating the 3D geometry from one or more 2D images
+
+- Pose: joints alone are not the full story. Joints are sparse. 
+
+- Shape:  whole surface geometry of the human body
 
 ### 3D shape representation
 
@@ -175,8 +180,14 @@ Human Pose Estimation: the problem of localization of human joints (or) keypoint
 - Voxel
 - Mesh
 
+### Method
 
-...
+- Regress the vertices directly
+- Regress parameters for a shape model
+  - SMPL (A Skinned Multi-Person Linear Model)
+  - Input (82) = Shape (10) + pose (24×3), output (6890×3)
+    - Advantage: generate high quality 3D meshes in the form of 6890 vertices while estimating only a small number of parameters
+
 
 
   
