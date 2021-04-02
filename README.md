@@ -63,9 +63,6 @@ Human Pose Estimation: the problem of localization of human joints (or) keypoint
 - Input:  an image of a person
 - Output: 3D human pose that matches the spatial position (N×3 keypoints)
 
-<div align=center>
-  <img src="data/dancing.gif" alt="dance" width="500" />
-</div>
 
 ### Challenge
 
