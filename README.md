@@ -1,6 +1,5 @@
 # 3D Human Pose Estimation Notes
 
-中文版：[3D人体姿态估计笔记](https://zhuanlan.zhihu.com/p/113024569)
 
 ## Pose Estimaiton
 
